@@ -1,0 +1,138 @@
+a{
+  text-decoration: none;
+  color: white;
+  text-align: center ;
+  opacity: 0.5;
+  transition: 250ms opacity;
+}
+
+a:hover{
+  color: white;
+  font-weight: bold;
+  opacity: 1;
+}
+
+.a_center{
+  text-align:center ;
+}
+
+.btn-red{
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+body{
+  color: #000;
+  background: rgb(112,110,136);
+  background: linear-gradient(90deg, rgba(112,110,136,1) 0%, rgba(102,210,196,1) 37%, rgba(0,212,255,1) 100%);
+  font-style: normal;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.card-green{
+  background: #84A98C  ;
+  border: 0.1px solid black;
+  border-radius: 4px;
+  box-shadow: 10px 20px 10px rgba(0, 0, 0, 0.2);
+  margin: 30px;
+  opacity: 0.75;
+  padding: 50px;
+  text-align: center ;
+  transition: 450ms opacity;
+}
+
+.card-green:hover{
+  opacity: 1;
+}
+
+.container{
+  margin: 10px auto;
+  width: 700px;
+}
+
+h1{
+  color: #ffffff;
+  font-weight: bold;
+  /*background-color: #DDF8E8;*/
+}
+
+h2{
+  color: #ffffff;
+  /*background-color: #DDF8E8;*/
+}
+
+h2 p{
+color: #ffffff;
+}
+
+.img-circle{
+  border-radius: 50%;
+}
+
+.list-inline{
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 20px;
+}
+
+.list-inline i {
+  font-size: 50px;
+}
+
+.list-inline i:hover {
+  color: #000000;
+  text-decoration:none;
+}
+
+p{
+  color: #FFE66D;
+  padding-bottom: 10px;
+  /*background-color: #DDF8E8;*/
+}
+
+.p_center{
+  text-align:center;
+}
+
+.p-subtitulo{
+  color: #ffffff;
+  font-size: 25px;
+}
+
+
+@media (max-width: 992px){
+  /*Para pantallas menores a 992px, se usa ese CSS para desktops*/
+  .container{
+    width: 700px;
+  }
+}
+
+@media (max-width: 768px){
+  /*Para pantallas menores a 992px, se usa ese CSS para tablets*/
+  .container{
+    width: 500px;
+  }
+}
+
+@media (max-width: 576px){
+  /*Para pantallas menores a 992px, se usa ese CSS para celulares*/
+  .container{
+    width: 400px;
+  }
+}
+
+/*
+img{
+ height: auto;
+ border-radius: 60%;
+ display: block;
+ margin: auto;
+}
+
+#CDD5D1*/
